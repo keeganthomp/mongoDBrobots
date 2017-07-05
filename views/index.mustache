@@ -9,10 +9,16 @@
 </head>
 
 <body>
-
+    <center>
+    <a href="/employed">Employed Bots</a>
+    <a href="/unemployed">Unemployed Bots</a>
+    </center>
+    <br>
     <div class="profileContainer">
-    {{#robotUsers}}
+
+        {{#robotUsers}}
         <div class="profileWrapper">
+
             <a href="users/{{id}}">
             <img class="img" src="{{avatar}}">
             </a>
@@ -23,7 +29,7 @@
             <p class="forHire">Available for hire</p>
             {{/job}}
         </div>
-    {{/robotUsers}}        
+        {{/robotUsers}}
     </div>
 
 </body>
