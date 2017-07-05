@@ -9,6 +9,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.15.3",
+    "mongodb": "^2.2.29",
     "mustache-express": "^1.2.4"
   },
   "devDependencies": {},

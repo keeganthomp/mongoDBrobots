@@ -1,6 +1,6 @@
 const express = require("express");
 const userRoutes = express.Router();
-const datafile = require("../database/data");
+// const datafile = require("../database/data");
 
 
 userRoutes.get("/:id", function(req, res) {
