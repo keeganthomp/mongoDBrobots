@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="main.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="profileContainer">
+    {{#dataFile}}
+        <div class="profileWrapper">
+            <a href="users/{{id}}">
+            <img class="img" src="{{avatar}}">
+            </a>
+            <p class="name">{{name}}</p>
+            {{#job}}
+            <p class="jobDesc">{{job}}, {{company}}</p>
+            {{/job}} {{^job}}
+            <p class="forHire">Available for hire</p>
+            {{/job}}
+        </div>
+    {{/dataFile}}        
+    </div>
+
+</body>
+
+</html>

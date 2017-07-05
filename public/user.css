@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.imgDetails {
+    border-radius: 50%;
+    border: 1px solid gray;
+    float: left;
+    width: 10rem;
+    height: 10rem;
+}
+
+.profileContainer {
+    margin: 0 auto;
+    width: 75%;
+}
+
+.name {
+    font-size: 3rem;
+}
+
+.userInfoWrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 3%;
+}
+
+.userInfo{
+    display: flex;
+    flex-direction: column;
+}
+
+.profileWrapper {
+    display:flex;
+    margin: 25% 0 0 20%;
+}
+
+.locationAndJob {
+    display: flex;
+}
+
+p {
+    margin: 0;
+}
+
+.educationSection {
+    display: flex;
+}
+
+.contactInfo {
+    margin: 1% 0 0 0;
+}
+
+.skillsSection {
+    display: flex;
+    margin-top:7%;
+}
+.education {
+    display: flex;
+    flex-direction: column;
+}
+
+.educationAndSkills {
+    margin: 10% 0 0 0;
+    font-size: .85rem;
+}
+
+.edTitle {
+    margin: 0 5% 0 0;
+    font-weight: bold;
+}
+
+
+.skillset {
+    margin-left: 32px;
+}
+
+.forHire {
+    color: red;
+}
+

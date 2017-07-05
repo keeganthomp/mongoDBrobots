@@ -1,0 +1,1 @@
+This is a application using Express.js and Mustache to build a user directory from a data set. The data presented can be found in the data.js file.
